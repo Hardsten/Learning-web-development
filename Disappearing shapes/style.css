@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+		
+#shape {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	top: 250px;
+	left: 250px;
+}
+		
+.time {
+	font-weight: bold;
+}

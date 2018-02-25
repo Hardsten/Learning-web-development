@@ -1,0 +1,406 @@
+<html>
+    <head>
+    <title>Technology - BBC News</title>
+    
+    <style type="text/css">
+    
+        body {
+            margin:0px;
+            padding:0px;
+            }
+
+        .white-border {
+            width:1000px;
+			margin-left: 188px;
+            height:40px;
+            }
+			
+		#logo {
+		    float: left;
+		    margin:8px 8px 7px 0px;
+		}
+		
+		.line {
+		    float:left;
+		    height: 40px;
+			border-left: 1px solid #cecece;
+		}
+		
+		#signin {
+		    margin: 13px 80px 0px 42px;			
+		}
+		
+		#space {
+		    float: left;
+		    width: 50px;
+			height: 40px;
+		}
+		
+		.white-menu-text {
+		    float: left;
+			font-family: Helvetica, Arial, sans-serif;
+		    margin: 13px 12px 0px 12px;
+            font-weight: bold;
+            font-size: 13px;
+		}
+		
+		#more-text {
+		    margin-right: 46px;
+		}
+		
+		#searchbox {
+		    float:left;
+			margin: 8px 0px 0px 10px;
+			width: 200px;
+			height: 25px;
+			background-color: #e4e4e4;
+		}
+		
+		#search-input {
+		    float: left;
+			width: 170px;
+			margin: 3px 0px 0px 6px;
+			background-color: #e4e4e4;
+			font-family: Helvetica, Arial, sans-serif;
+			border: None;
+			font-weight: bold;
+            font-size: 13px;
+		}
+		
+		#search-logo {
+		    float: left;
+			margin-top: 5px;
+			background-color: #e4e4e4;
+			width: 17px;
+		}
+
+        .red-border {
+			font-family: Helvetica,Arial,sans-serif;
+            background-color:#BB1919;
+            width:100%;
+            height:56px;
+            }
+			
+		.red-border a {
+		    float: right;
+			position: relative;
+			top: 14px;
+			right: 188px;
+			color: white;
+			font-size: 19px;
+			text-decoration: none;
+			border: 1px solid #BB4545;
+			padding: 5px 30px 4px 12px; 
+		}
+		
+		.red-border a:hover {
+			text-decoration: underline;	
+		}
+		
+        #dark-red-border {
+            background-color:#A91717;
+            width:100%;
+            height:36px;
+            }
+
+		#dark-red-menu {
+		    margin-left: 176px;
+			margin-right: 188px;
+		}
+		
+		.dark-red-menu-text {
+		    float: left;
+			font-family: Helvetica,Arial,sans-serif;
+            position:relative;
+			top: -2px;
+			color: white;
+			font-size: 14px;
+			padding: 0px 12px 0px 12px;
+			border-right: 1px solid #BB4545;
+		}
+		
+		#more {
+		    border-right: none;
+		}
+
+        #webpage {
+			font-family: Helvetica,Arial,sans-serif;
+			color: #686868;
+            float:left;
+            margin: -10px 0px 0px 188px;
+			padding-bottom: 15px;
+            border-bottom: 1px solid #cecece;
+        }
+
+        #title {
+		    font-family: Helvetica,Arial,sans-serif;
+            font-size: 20px;
+			color: #404040;
+            margin: 10px 188px;
+			width: 102px;
+		    border-bottom: 3px solid #BB1919;
+        }
+		
+		#header {
+			margin: 23px 0px 10px 0px;
+			font-size: 31px;
+		}
+
+        #article {
+            float:left;
+            width: 250px;
+        }		
+		
+		#text1 {
+			margin-top: 5px;
+			font-size: 15px;
+		}
+		
+		#article-info {
+			font-size: 13px;
+			margin-left: 15px;
+		}
+		
+		#article-info a {
+			margin-left: 5px;
+			border-left: 1px solid #e4e4e4;
+			padding-left: 8px;
+			color: #BB1919;
+			text-decoration: none;
+		}
+		
+		#article-info a:hover {
+			color: #57A3D4
+        }
+		
+		hr {
+			width: 40px;
+			border: 1px solid #BB1919;
+		}
+		
+		.related-info {
+			color: black;
+			font-size: 14px;
+		}
+		
+        #picture {
+            float:left;
+            width:396px;
+        }
+
+        #youtube {
+            float: left;
+            margin: 12px 15px; 
+            height: 800px;
+			width: 315px;
+            border-left: 1px solid #cecece;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+		
+		#youtube h1 {
+		    font-weight: normal;
+			font-size: 24px;
+			color: #404040;
+            margin: 0px 0px 0px 16px;			
+		}
+		
+		.video-link {
+		    float: left;
+			margin-bottom: 5px;
+		}
+		
+		.video-picture {
+		    float: left;
+			width: 110px;
+			margin: 16px 0px 0px 16px;
+		}
+		
+		.video-text {
+		    float: right;
+		    width: 180px;
+			margin: 18px 0px 0px 8px;
+		}
+		
+		.video-title {
+		    
+		    font-weight: bold;
+			font-size: 15px;
+			color:#222222;
+			text-decoration: none;
+		}
+		
+		.video-date {
+		    font-size: 13px;
+			margin: 10px 0px 0px 18px;
+			padding-right: 5px;
+			color: #686868;
+			width: 100px;
+			border-right: 1px solid #e4e4e4;
+		}
+		
+		#video-date-no-border {
+			border-right: none;
+		}
+    
+		.red-video-link {
+            position: relative;
+			top: 5px;
+			font-size: 13px;
+			color: #BB1919;
+			text-decoration: none;
+		}
+		
+		.video-text a:hover {
+			color: #57A3D4
+		
+    </style>
+    </head>
+
+    <body>
+    
+        <div class="white-border">
+            <img id="logo" src=bbc.png>
+			<div class="line"></div>
+			<p id="signin" class="white-menu-text">Sign in</p>
+			<div class="line"></div>
+			<div id="space"></div>
+			<div class="line"></div>
+			<p class="white-menu-text">News</p>
+			<div class="line"></div>
+			<p class="white-menu-text">Sport</p>
+			<div class="line"></div>
+			<p class="white-menu-text">Weather</p>
+			<div class="line"></div>
+			<p class="white-menu-text">iPlayer</p>
+			<div class="line"></div>
+			<p class="white-menu-text">TV</p>
+			<div class="line"></div>
+			<p class="white-menu-text">Radio</p>
+			<div class="line"></div>
+			<p id="more-text" class="white-menu-text">More</p>
+			<div class="line"></div>
+			<div id="searchbox">
+			    <input id="search-input" Value="Search">
+			    <img id="search-logo" src=search.png>
+			</div>
+			
+        </div>
+
+        <div class="red-border">
+
+		<a href="">Find local news</a>
+		
+        </div>
+
+        <div id="dark-red-border">
+		
+		    <div id="dark-red-menu">
+        
+		        <p class="dark-red-menu-text">Home</p>
+				<p class="dark-red-menu-text">UK</p>
+				<p class="dark-red-menu-text">World</p>
+				<p class="dark-red-menu-text">Business</p>
+				<p class="dark-red-menu-text">Politics</p>
+				<p class="dark-red-menu-text">Tech</p>
+				<p class="dark-red-menu-text">Science</p>
+				<p class="dark-red-menu-text">Health</p>
+				<p class="dark-red-menu-text">Education</p>
+				<p class="dark-red-menu-text">Entertainment & Arts</p>
+				<p class="dark-red-menu-text">Video & Audio</p>
+				<p class="dark-red-menu-text" id="more">More</p>
+				
+			</div>
+		
+        </div>
+
+        <p id="title">Technology</p>
+
+        <div id="webpage">
+
+            <h1 id="header">Asda bug exposed payment details</h1>
+        
+            <div id=article>
+			    
+				<p id="text1">Security vulnerabilities that put customers at risk have affected Asda's website for a cluple of years, a security expert has revealed</p>
+			
+			    <p id="article-info">2 hours ago <a href="" id="article-info-link">Technology</a></p>
+				
+				<hr align="left">
+				
+				<p class="related-info">Surveillance firm hit in hack attack</p>
+				
+				<p class="related-info">eBay flaw has existed for months</p>
+				
+            </div>
+
+            <img id="picture" src=asda.jpg>
+
+        </div>
+
+        <div id="youtube">
+		
+		    <h1>Watch/Listen</h1>
+			
+			<div class="video-link">
+				<img class="video-picture" src="video1.bmp">
+			
+				<div class="video-text">
+					<a class="video-title" href="">UK science chief backs blockchains</a>
+					<p class="video-date" id="video-date-no-border">1 hour ago</p>
+				</div>
+			</div>
+
+			<div class="video-link">
+				<img class="video-picture" src="video2.bmp">
+			
+				<div class="video-text">
+					<a class="video-title" href="">Drone register gives 'accountability'</a>
+					<p class="video-date">18 January 2016</p>
+					<a class="red-video-link" href="">Technology</a>
+				</div>
+			</div>
+			
+			<div class="video-link">
+				<img class="video-picture" src="video3.bmp">
+				
+				<div class="video-text">
+					<a class="video-title" href="">SpaceX rocket explodes during landing</a>
+					<p class="video-date">18 January 2016</p>
+					<a class="red-video-link" href="">Science & Environment</a>
+				</div>
+			</div>
+			
+			<div class="video-link">
+				<img class="video-picture" src="video4.bmp">
+				
+				<div class="video-text">
+					<a class="video-title" href="">What is a VPN service?</a>
+					<p class="video-date">18 January 2016</p>
+					<a class="red-video-link" href="">Technology</a>
+				</div>
+			</div>
+			
+			<div class="video-link">
+				<img class="video-picture" src="video5.bmp">
+				
+				<div class="video-text">
+					<a class="video-title" href="">Charge your phone with a hand crank</a>
+					<p class="video-date">15 January 2016</p>
+					<a class="red-video-link" href="">Technology</a>
+				</div>
+			</div>
+			
+			<div class="video-link">
+				<img class="video-picture" src="video6.bmp">
+				
+				<div class="video-text">
+					<a class="video-title" href="">Drones break Guinness World Record</a>
+					<p class="video-date">15 January 2016</p>
+					<a class="red-video-link" href="">Technology</a>
+				</div>
+			</div>
+		
+        </div>
+    
+    </body>
+</html>
